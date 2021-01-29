@@ -44,10 +44,7 @@ span:hover::after {
 }
 
 body {
-    position: relative;
-    display: block;
-    height: 1024px;
-    top: 0px;
+    width: 1440px;
     background-color: #262630;
 }
 
@@ -62,9 +59,9 @@ body {
 
 .oxx {
     position: absolute;
-    width: 426.52px;
+    width: 424px;
     height: 439.33px;
-    left: 1100px;
+    left: 1112px;
     top: 554px;
 }
 
@@ -72,7 +69,7 @@ body {
     position: absolute;
     width: 134.34px;
     height: 285.18px;
-    left: -16px;
+    left: -1px;
     top: 10px;
 }
 
@@ -88,26 +85,25 @@ body {
     position: relative;
     width: 790.6px;
     height: 949.99px;
-    left: 461.35px;
-    top: 26.04px;
+    left: 560px;
+    top: 30px;
 }
 
-
-/* .square {
+.square {
     position: absolute;
     width: 739.69px;
     height: 380.58px;
     left: 0px;
     top: 490.72px;
     background: #22222D;
-} */
+}
 
 .text {
     position: absolute;
     width: 320.84px;
     height: 168px;
-    left: 1100px;
-    top: 365px;
+    left: 99.38px;
+    top: 597.01px;
     color: white;
     font-family: Alegreya Sans;
     font-style: normal;
