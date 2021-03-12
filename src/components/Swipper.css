@@ -1,0 +1,106 @@
+#popular {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 686px;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: 0.5px solid #FFFFFF;
+}
+
+.popular {
+    position: relative;
+    display: flex;
+    color: white;
+    font-family: Alegreya Sans;
+    font-size: 250%;
+}
+
+.book {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 500px;
+}
+
+.tomYum {
+    position: absolute;
+    height: 317px;
+    left: 10%;
+    top: 25%;
+}
+
+.mienXao {
+    position: absolute;
+    height: 317px;
+    left: 10%;
+    top: 25%;
+}
+
+.goiCuon {
+    position: absolute;
+    height: 317px;
+    left: 10%;
+    top: 25%;
+}
+
+.rectFood {
+    position: relative;
+    width: 363px;
+    height: 363px;
+    background: rgba(196, 196, 196, 0.05);
+    border: 4px solid #D4BF73;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+}
+
+.textFood {
+    position: relative;
+    width: 28%;
+    height: 15%;
+    font-family: Alegreya Sans;
+    color: white;
+    font-size: 150%;
+    line-height: 100%;
+}
+
+.carousel-indicators {
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 960px) {
+    .popular {
+        font-size: 200%;
+    }
+    .book {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .tomYum {
+        width: 85%;
+        height: auto;
+        top: 28%;
+    }
+    .mienXao {
+        width: 85%;
+        height: auto;
+        top: 18%;
+    }
+    .goiCuon {
+        width: 85%;
+        height: auto;
+        top: 18%;
+    }
+    .textFood {
+        width: 100%;
+        font-size: 100%;
+    }
+}
